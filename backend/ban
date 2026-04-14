@@ -1,0 +1,125 @@
+{
+  "_id": {
+    "$oid": "69d4fd0f45218d96d6faf654"
+  },
+  "jobdescription": "We are looking for a passionate Frontend Developer to join our team. The ideal candidate should have a strong understanding of web technologies and be able to build responsive and user-friendly web applications.\n\nResponsibilities:\n\nDevelop and maintain web applications using React.js\nWrite clean, efficient, and reusable code\nCollaborate with designers and backend developers\nOptimize applications for maximum speed and scalability\n\nRequirements:\n\n1–3 years of experience in frontend development\nStrong knowledge of HTML, CSS, JavaScript\nExperience with React.js\nBasic understanding of REST APIs\nFamiliarity with Git\n\nLocation: Remote\nSalary: 4–8 LPA\nJob Type: Full-time",
+  "resume": "Gopal Songara\ngopalrajput.py@gmail.com | +91 8878109103 | linkedin.com/in/gopalsongara | https://github.com/gopalsongara\nSummary\nPassionate Full Stack Developer with strong skills in HTML, Tailwind, JavaScript, React, Node.js, Express, and MongoDB.\nExperience in building responsive websites and web applications. Good knowledge of C++ and DSA. Always eager to\nlearn new technologies and improve coding skills.\nEducation\nBachelor of Technology in Computer Science and Engineering (BTech)\nShri Vaishnav Vidyapeeth Vishwavidyalaya, Indore.\n2024 - 2028\n12th PCM - MP Board\nVedant Global High School, Pachore\n2023 - 2024\nProjects\nDeveloper Portfolio Website\n• Built a personal portfolio website to showcase projects and technical skills\n• Implemented responsive design for mobile and desktop devices\n• Technologies : React, Tailwind CSS\n• GitHub : Repository | Live : Website\nAI Code Reviewer\n• Developed an AI-powered web application that reviews user-submitted code and provides intelligent suggestions for\nimprovement.\n• Built a React-based frontend where users can paste code and receive AI-generated feedback.\n• Implemented a Node.js and Express backend to handle API requests and communicate with the AI service.\n• Integrated OpenAI API to analyze code quality, detect potential issues, and suggest optimized solutions.\n• Technologies : React.js, Node.js, Express.js, GROQ API, JavaScript, HTML, CSS\n• GitHub : Frontend Repo | Backend Repo\n• Live : aicodescaner.netlify.app\nFood Delivery App (Zomato Clone)\n• Developed a full-stack food delivery platform Implemented user authentication and order management Created\nRESTful APIs for backend services\n• React.js, Node.js, Express.js, MongoDB.\nGarbage Management Web Application\n• Developed a full-stack web application for garbage collection management\n• Enabled users to upload garbage photos for reporting issues\n• Implemented a voting/response system to prioritize major problems\n• Automated issue forwarding to management based on public response\n• Added a reward system for users after successful problem resolution\n• Built secure RESTful APIs using Node.js and Express\n• Technologies : React.js, Node.js, Express.js, MongoDB\n• GitHub : github.com/gopalsongara/hackthon-main\n• Live : hackthon-main.netlify.app\nTechnical Skills\nOperating System : Ubuntu, Windows\nFront-End Technologies : HTML,CSS, Reactjs, Tailwind CSS\nBack-End Technologies : NodeJs, ExpressJs, Mongodb basics of Gen ai\nTools:Git/GitHub,VSCode\nProgramming: C, C++,JavaScript\n\n-- 1 of 2 --\n\nCertifications\n• Oracle Certified Foundations Associate – AI Foundations\n• Oracle Cloud Infrastructure 2025 Certified Foundations Associate\n• Data Analytics Virtual Experience Program\n• Gemini Certified Educator\nAchievement\n• Winner – Codemaster Coding Competition, SVVV (2026)\n• Smart India Hackathon (SIH) 2025, developed innovative solution under national-level competition\n\n-- 2 of 2 --\n\n",
+  "selfdescription": "I am a passionate and dedicated web developer with a strong foundation in HTML, CSS, and JavaScript. I have hands-on experience in building responsive and user-friendly web applications using React.js.\n\nI enjoy solving problems and continuously learning new technologies to improve my skills. I have experience working with REST APIs and version control systems like Git. I am a quick learner, a team player, and always eager to take on new challenges.\n\nMy goal is to build scalable and impactful applications while growing as a developer in a professional environment.",
+  "matchscore": 85,
+  "user": {
+    "$oid": "69abe262accab54567d2cdab"
+  },
+  "technicalQuestions": [
+    {
+      "question": "Explain how you would optimize a React application for better performance.",
+      "intention": "Assess understanding of React performance optimization techniques.",
+      "answer": "To optimize a React app, I would use React.memo for preventing unnecessary re-renders, implement code splitting with React.lazy and Suspense, use useCallback and useMemo hooks to memoize functions and values, and ensure efficient state management with Context API or Redux. Additionally, I would analyze bundle size with tools like Webpack Bundle Analyzer."
+    },
+    {
+      "question": "How would you implement authentication in a React + Node.js application?",
+      "intention": "Test knowledge of full-stack authentication flow.",
+      "answer": "I would use JWT tokens: 1) Frontend sends login credentials to Node.js backend, 2) Backend verifies credentials and generates JWT, 3) Token is stored in HTTP-only cookies for security, 4) Protected routes check for valid tokens. For the UI, I'd create login/logout components with proper state management."
+    },
+    {
+      "question": "Describe your approach to making a responsive navbar with Tailwind CSS.",
+      "intention": "Evaluate practical CSS framework skills.",
+      "answer": "I would use Tailwind's mobile-first classes: Start with 'md:flex' for desktop view, 'hidden md:block' for mobile menu toggle, 'flex-col md:flex-row' for layout switching. Add 'hover:' states for interactions and 'fixed w-full' for sticky positioning. Media queries are handled automatically through Tailwind's breakpoint prefixes."
+    },
+    {
+      "question": "Explain how you would fetch and display API data in React with error handling.",
+      "intention": "Assess API integration skills.",
+      "answer": "I'd use the fetch API or Axios in a useEffect hook: 1) Set loading/error states, 2) Make async request in try-catch block, 3) Update state with response data, 4) Display loading/error states conditionally. For better UX, I'd add pagination and implement React Query for caching."
+    },
+    {
+      "question": "How would you debug a React component that's not updating as expected?",
+      "intention": "Test debugging methodology.",
+      "answer": "First I'd check: 1) Console logs for state/props changes, 2) React DevTools component tree, 3) Ensure state updates are immutable, 4) Verify dependencies in useEffect hooks. For complex issues, I'd use React.StrictMode or write unit tests to isolate the problem."
+    }
+  ],
+  "behavioralQuestions": [
+    {
+      "question": "Describe a time you had to learn a new technology quickly for a project.",
+      "intention": "Assess learning agility.",
+      "answer": "Situation: Needed to integrate GROQ API for AI Code Reviewer project with tight deadline. Task: Implement AI suggestions feature without prior API knowledge. Action: Studied documentation, built small test endpoints, watched tutorial videos. Result: Successfully integrated API within 3 days, project was completed on time."
+    },
+    {
+      "question": "Tell me about a challenging bug you solved in a team project.",
+      "intention": "Evaluate problem-solving in collaboration.",
+      "answer": "Situation: Garbage Management app had photo upload failures. Task: Fix file uploads crashing the Node server. Action: Debugged with logging, discovered memory limits, implemented file size validation and compression. Result: Reduced upload failures by 90% and improved error handling."
+    },
+    {
+      "question": "How do you handle feedback on your code during code reviews?",
+      "intention": "Test receptiveness to feedback.",
+      "answer": "Situation: Senior dev suggested refactoring my React components. Task: Improve code quality while meeting deadlines. Action: Asked clarifying questions, implemented suggested patterns like custom hooks, documented changes. Result: Code became more reusable and performance improved by 15%."
+    }
+  ],
+  "skillgaps": [
+    {
+      "skill": "Advanced React Patterns",
+      "severity": "medium"
+    },
+    {
+      "skill": "TypeScript",
+      "severity": "medium"
+    },
+    {
+      "skill": "Testing (Jest/React Testing Library)",
+      "severity": "high"
+    }
+  ],
+  "preparationplan": [
+    {
+      "day": 1,
+      "tasks": [
+        "Practice React hooks deep dive",
+        "Solve 3 React coding challenges",
+        "Review Tailwind documentation"
+      ],
+      "focus": "Frontend Fundamentals"
+    },
+    {
+      "day": 2,
+      "tasks": [
+        "Implement JWT auth flow demo",
+        "Study REST API best practices",
+        "Practice API error handling"
+      ],
+      "focus": "Backend Integration"
+    },
+    {
+      "day": 3,
+      "tasks": [
+        "Learn Jest testing basics",
+        "Write tests for portfolio project",
+        "Study React testing patterns"
+      ],
+      "focus": "Testing"
+    },
+    {
+      "day": 4,
+      "tasks": [
+        "Research common React interview questions",
+        "Practice explaining technical concepts",
+        "Prepare project walkthroughs"
+      ],
+      "focus": "Interview Prep"
+    },
+    {
+      "day": 5,
+      "tasks": [
+        "Mock interview with peer",
+        "Review DSA basics",
+        "Prepare questions for interviewer"
+      ],
+      "focus": "Final Review"
+    }
+  ],
+  "title": "Frontend Developer Interview Report for Gopal Songara",
+  "createdAt": {
+    "$date": "2026-04-07T12:48:15.114Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-07T12:48:15.114Z"
+  },
+  "__v": 0
+}
