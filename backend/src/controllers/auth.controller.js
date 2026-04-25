@@ -63,7 +63,6 @@ async function loginUser(req, res){
    
    const {email, password} = req.body;
    
-console.log(email, password)
 
    const user = await UserModel.findOne({email})
    
