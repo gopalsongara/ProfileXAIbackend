@@ -166,7 +166,7 @@ Self Description:
 const text = response?.choices?.[0]?.message?.content;
 
 if (!text) {
-  console.log("RAW RESPONSE:", response);
+  
   throw new Error("AI returned empty response");
 }
 
@@ -329,7 +329,7 @@ ${shortResume}
   const text = response?.choices?.[0]?.message?.content;
 
   if (!text) {
-    console.log("RAW RESPONSE:", response);
+    
     throw new Error("AI returned empty response");
   }
 
