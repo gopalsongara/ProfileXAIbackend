@@ -13,7 +13,7 @@ app.use(express.json())
 
 
 app.use(cors({
-    origin: "https://profilexai.netlify.app",
+    origin: "https://profile-xfrontend-x4q5.vercel.app",
     credentials: true
 }))
 
